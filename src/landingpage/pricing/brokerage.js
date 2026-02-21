@@ -1,0 +1,25 @@
+//import react from "react";
+
+function Brokerage() {
+    return (
+        <div className="container">
+            <div className="row border-top p-5 mt-5">
+                <div className="col-8 p-4">
+                    <a href="/" style={{ textDecoration: "none" }}><h3>Brokerage Calculator</h3></a>
+                    <ul style={{textAlign:"left", lineHeight:"2.5", fontSize:"14px"}} className="text-muted">
+                        <li>Equity and Futures - ₹10 per crore + GST of the traded value.</li>
+                        <li>Options - ₹50 per crore + GST traded value (premium value).</li>
+                        <li>Currency - ₹0.05 per lakh + GST of turnover for Futures and ₹2 per lakh + GST of premium for Options.</li>
+                        <li>  MTF Brokerage: 0.3% or Rs. 20/executed order, whichever is lower.</li>
+                        <li>MTF pledge charge: ₹15 + GST per pledge and unpledge request per ISIN.</li>
+                    </ul>
+                </div>
+                <div className="col-4 p-4">
+                    <a href="/" style={{ textDecoration: "none" }}> <h3>List of charges</h3></a>
+                </div>
+            </div>
+        </div> 
+    );
+}
+
+export default Brokerage;
