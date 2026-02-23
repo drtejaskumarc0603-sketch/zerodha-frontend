@@ -22,7 +22,7 @@ export default function SignUp() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3002/api/auth/signup", {
+      const response = await fetch("https://zenalgo.onrender.com/api/auth/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
