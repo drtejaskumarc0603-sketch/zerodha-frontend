@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import ReactDOM from 'react-dom/client';
 import{BrowserRouter , Routes , Route} from 'react-router-dom'; 
 import './index.css';
@@ -11,12 +11,18 @@ import Aboutpage from './landingpage/about/aboutpage';
 import Navbar from './navbar.js';
 import Footer from './footer.js';
 import NotFound from './notfound.js';
+import Login from './landingpage/login/login.js';
+//import Home from "./components/Home"; // dashboard Home
+//import Dashboard from "./components/Dashboard.js"
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <BrowserRouter>
-  <Navbar />
+  <Navbar/>
   <Routes>
     <Route path="/" element={<Homepage />} />
    <Route path="/signup" element={<SignUp />} />
@@ -25,6 +31,13 @@ root.render(
    <Route path="/pricing" element={< PricingPage />} />
    <Route path="/support" element={<SupportPage />} />
    <Route path="*" element={<NotFound />} />
+   <Route path="/login" element={<Login />} />
+   
+ 
+
+
+  <Route path="*" element={<NotFound />} />
+   
   </Routes>
   <Footer/>
   </BrowserRouter>

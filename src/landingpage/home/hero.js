@@ -1,5 +1,5 @@
 //import react from "react";
-
+import { Link } from "react-router-dom";
 
 function hero() {
     return (
@@ -9,7 +9,9 @@ function hero() {
             <img src='/media/Colab Notebooks/homeHero.png' alt="Hero" className="mb-5"/>
             <h1 className=" mt-5">Invest In Everything</h1>
             <p>Online Platform to invest in stocks, mutual funds, and more</p>
-            <button className="p-2 btn btn-primary fs-5 mb-5" style={{width : "20%" , margin: "0 auto"}}>Sign Up Now</button>
+            <Link to="/signup">
+            <button className="p-2 btn btn-primary fs-5 mb-5" style={{width : "20%" , margin: "0 auto"} }>Sign Up Now</button>
+            </Link>
         </div>
       </div>
         
