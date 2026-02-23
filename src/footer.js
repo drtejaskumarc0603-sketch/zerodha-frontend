@@ -1,4 +1,4 @@
-import react from "react";
+//import react from "react
 
 function Footer() {
     return (
@@ -11,28 +11,28 @@ function Footer() {
                 </div>
                  <div className="col">
                     <h3>Company</h3>
-                    <a href=""className="muted-link mb-2 mt-2" style={{textDecoration : "none"}}>About</a><br/>
-                    <a href=""className="muted-link mb-2"style={{textDecoration : "none"}}>Products</a><br/>
-                    <a href=""className="muted-link mb-2"style={{textDecoration : "none"}}>Pricing</a><br/>
-                     <a href=""className="muted-link mb-2"style={{textDecoration : "none"}}>Refereal Programee</a><br/>
-                     <a href=""className="muted-link mb-2"style={{textDecoration : "none"}} >Careers</a><br/>
-                     <a href=""className="muted-link mb-2"style={{textDecoration : "none"}}>Zerodha.tech</a><br/>
-                    <a href=""className="muted-link mb-3"style={{textDecoration : "none"}}>Zerodha Cares (CSR)</a><br/>
+                    <a href="/about"className="muted-link mb-2 mt-2" style={{textDecoration : "none"}}>About</a><br/>
+                    <a href="/products"className="muted-link mb-2"style={{textDecoration : "none"}}>Products</a><br/>
+                    <a href="/pricing"className="muted-link mb-2"style={{textDecoration : "none"}}>Pricing</a><br/>
+                     <a href="/"className="muted-link mb-2"style={{textDecoration : "none"}}>Refereal Programee</a><br/>
+                     <a href="/"className="muted-link mb-2"style={{textDecoration : "none"}} >Careers</a><br/>
+                     <a href="/"className="muted-link mb-2"style={{textDecoration : "none"}}>Zerodha.tech</a><br/>
+                    <a href="/"className="muted-link mb-3"style={{textDecoration : "none"}}>Zerodha Cares (CSR)</a><br/>
                  </div>
                   <div className="col">
                     <h3>Support</h3>
-                    <a href=""className="muted-link mb-2 mt-2"style={{textDecoration : "none"}}>Contact</a><br/>
-                    <a href=""className="muted-link mb-2"style={{textDecoration : "none"}}>Support portal</a><br/>
-                    <a href=""className="muted-link m b-2"style={{textDecoration : "none"}}>Z-connect</a><br/>
-                     <a href=""className="muted-link mb-2"style={{textDecoration : "none"}}>List of charges</a><br/>
-                     <a href=""className="muted-link mb-3"style={{textDecoration : "none"}}>Resources</a><br/>
+                    <a href="/"className="muted-link mb-2 mt-2"style={{textDecoration : "none"}}>Contact</a><br/>
+                    <a href="/"className="muted-link mb-2"style={{textDecoration : "none"}}>Support portal</a><br/>
+                    <a href="/"className="muted-link m b-2"style={{textDecoration : "none"}}>Z-connect</a><br/>
+                     <a href="/"className="muted-link mb-2"style={{textDecoration : "none"}}>List of charges</a><br/>
+                     <a href="/"className="muted-link mb-3"style={{textDecoration : "none"}}>Resources</a><br/>
                      
                   </div>
                    <div className="col">
                     <h3>Accounts</h3>
-                    <a href="" className="muted-link mb-2 mt-2"style={{textDecoration : "none"}}>Open an account </a><br/>
-                    <a href=""className="muted-link mb-2"style={{textDecoration : "none"}}>Fund Transfer</a><br/>
-                    <a href=""className="muted-link mb-3"style={{textDecoration : "none"}}>60 Day Challenge</a><br/>
+                    <a href="/" className="muted-link mb-2 mt-2"style={{textDecoration : "none"}}>Open an account </a><br/>
+                    <a href="/"className="muted-link mb-2"style={{textDecoration : "none"}}>Fund Transfer</a><br/>
+                    <a href="/"className="muted-link mb-3"style={{textDecoration : "none"}}>60 Day Challenge</a><br/>
                    </div>
             </div>
             <div className="mt-5 text-small text-muted" style={{fontSize:"12px"}}>

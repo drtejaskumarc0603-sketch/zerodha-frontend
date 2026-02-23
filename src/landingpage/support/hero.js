@@ -13,15 +13,15 @@ function Hero() {
                 <div className="col-6 p-5 " >  
                     <h1 className="fs-3">Search for the Answer or browse help Topics</h1>
                     <input placeholder="Eg. how do i activate F&O"/><br/>
-                    <a href="/"Track account Opening></a>
-                    <a href="/"Track Segement Activation></a>
-                    <a href="/"Intraday Margins></a>
+                    <a href="/">Track account Opening</a>
+                    <a href="/">Track Segement Activation</a>
+                    <a href="/">Intraday Margins</a>
                       </div>
                 <div className="col-6 p-5 " >  
                     <h2>Featured</h2>
                     <ol>
-                    <li><a href="/"Current Takeovers></a></li>
-                    <li><a href="/"Latest Intraday Leverages></a></li>
+                    <li><a href="/">Current Takeovers</a></li>
+                    <li><a href="/">Latest Intraday Leverages</a></li>
                     </ol>
                       </div>
                 
